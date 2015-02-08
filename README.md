@@ -46,6 +46,6 @@ CheckObject (root object, address array,[value any value]) returns boolean.
   
   returns false is not equal, true if equal (use JSON.stringify function for compared values).
 
-ReturnObjectValue (root object, address array) return any type. It works as previous function, but returns leaf value of array clone.
+ReturnObjectValue (root object, address array) return any type. It works as previous function, but returns leaf value of array clone, and returns undefined if object does not exists.
  
-isEmptyObject (object object) checks if associative array is empty, returns true if empty, false if not? undefined if object does not exists.
+isEmptyObject (object object) checks if associative array is empty, returns true if empty, false if not empty. undefined if object does not exists.
