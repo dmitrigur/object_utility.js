@@ -1,5 +1,5 @@
 # object_utility.js
-Small library for multi-level autoarray and associative array operations.
+Small javascript library for multi-level autoarray and associative array operations.
 
 This library makes more easier an operating of multi-level arrays in cases when existence of certain clone of an array is unknown or none.
 For example, you need to assign a value for leaf of some multi-level associative array as follows: 
