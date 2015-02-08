@@ -33,7 +33,8 @@ ruler - array of key, which assign types of array to created in every node array
 
 flag - is needed when the last node of clone is autoarray, it determines, either value is to be pushed to array (true) or is to be unshifted (false).
 
-CheckObject (root object, address array,[value any value]) returns boolean
+CheckObject (root object, address array,[value any value]) returns boolean.
+
   root - fragment of array clone, in existence of what a coder is certain.
   
   address  - array of fragment of array clone nodes keys in existence of what a coder is uncertain.
